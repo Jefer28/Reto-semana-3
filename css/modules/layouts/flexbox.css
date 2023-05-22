@@ -1,0 +1,41 @@
+.flexbox {
+  display: flex;
+}
+
+.flexbox--header {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-direction-column {
+  flex-direction: column;
+}
+
+
+.flexbox {
+  display: flex;
+}
+
+.flexbox--responsive {
+  flex-direction: column;
+}
+
+.flexbox--header {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexbox--center {
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .flexbox--responsive {
+    flex-direction: row;
+  }
+}

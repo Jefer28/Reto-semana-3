@@ -1,0 +1,26 @@
+.button {
+  display: inline-flex;
+  padding: 0.25em 1em;
+  border: none;
+  border-radius: var(--primary-border-radius);
+  background-color: var(--primary-main-color);
+  color: var(--white-color);
+  font-family: var(--primary-font-family);
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: box-shadow 0.25s, filter 0.25s;
+}
+
+.button:hover {
+  background-color: var(--primary-main-button-color);
+  filter: brightness(1.125);
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .button {
+    font-size: 1.125rem;
+  }
+}

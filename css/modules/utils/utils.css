@@ -1,0 +1,33 @@
+.d-flex {
+  display: flex;
+}
+
+.d-none {
+  display: none;
+}
+
+.gap-xs {
+  gap: calc(var(--primary-spacing) * 0.5);
+}
+
+.color-primary {
+  color: var(--primary-main-color);
+}
+
+.gap-sm {
+  gap: 1.5rem;
+}
+
+.gap-md {
+  gap: 2rem;
+}
+
+.color-primary-span {
+  color: var(--primary-main-span-color);
+}
+
+@media (min-width: 768px) {
+  .md\:d-block {
+    display: block;
+  }
+}

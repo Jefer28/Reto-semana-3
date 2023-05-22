@@ -1,0 +1,32 @@
+.g-layout {
+  display: grid;
+}
+
+.g-layout--1-1 {
+  grid-template-columns: 100%;
+}
+
+.g-layout--1-1-1 {
+  grid-template-columns: 1fr;
+}
+
+.g-layout--center {
+  align-items: center;
+  justify-items: center;
+}
+
+@media (min-width: 768px) {
+  .g-layout--1-1 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  .g-layout--1-1 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .g-layout--1-1-1 {
+    grid-template-columns: 1fr 1fr;
+  }
+}

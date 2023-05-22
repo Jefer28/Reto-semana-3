@@ -1,0 +1,9 @@
+.header {
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--primary-background-color);
+    box-shadow: 0 0 0.5rem 0 var(--primary-shadow-color);
+}

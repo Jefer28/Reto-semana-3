@@ -1,0 +1,30 @@
+@import './modules/variables/variables.css';
+@import './modules/layouts/container.css';
+@import './modules/layouts/flexbox.css';
+@import './modules/layouts/grid-layout.css';
+@import './modules/components/header.css';
+@import './modules/components/nav.css';
+@import './modules/components/hero.css';
+@import './modules/components/list.css';
+@import './modules/components/card.css';
+@import './modules/components/footer.css';
+@import './modules/content/button.css';
+@import './modules/content/link.css';
+@import './modules/content/img.css';
+@import './modules/utils/utils.css';
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700;800&display=swap');
+.body {
+    margin: 0;
+    background-color: var(--primary-background-color);
+    font-family: var(--primary-font-family);
+}
+
+.title {
+    text-align: var(--primary-text-align-center);
+    font-size: 2rem;
+}
+
+.main {
+    margin-bottom: 30px;
+}

@@ -1,0 +1,46 @@
+.card {
+  max-width: 320px;
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+
+.card__body__section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  background: rgba(255, 255, 255, 0.09);
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.5px);
+}
+
+.card__title {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.card__text {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .card {
+    max-width: 512px;
+  }
+
+  .card__title {
+    font-size: 2.25rem;
+  }
+
+  .card__text {
+    font-size: 1rem;
+  }
+
+}

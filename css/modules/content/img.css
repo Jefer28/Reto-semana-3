@@ -1,0 +1,21 @@
+.img {
+    display: block;
+}
+
+.img--logo {
+    width: 48px;
+    height: 48px;
+    transition: 0.80s;
+    border-radius: 50%;
+}
+
+.img--logo:hover {
+    transform: scale(1.1);
+}
+
+.img--hero {
+    width: 256px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 10px 13px 5px rgba(0, 0, 0, 0.75);
+}

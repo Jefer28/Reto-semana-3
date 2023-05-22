@@ -1,0 +1,22 @@
+:root {
+  --primary-max-width: 512px;
+  --primary-spacing: 1.5rem;
+  --primary-border-radius: 0.5rem;
+  --primary-main-color: #ffa917;
+  --primary-main-span-color: #d04408;
+  --primary-main-button-color: #f38424;
+  --primary-background-color: #ffc017;
+  --primary-text-color: black;
+  --secondary-text-color: #777;
+  --white-color: white;
+  --primary-shadow-color: rgba(62, 46, 46, 0.5);
+  --primary-font-family: 'Exo 2', sans-serif;
+  --primary-text-align-center: center;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --primary-max-width: 1024px;
+    --primary-spacing: 2rem;
+  }
+}
