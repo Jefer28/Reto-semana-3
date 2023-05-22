@@ -54,4 +54,8 @@
     .footer-content {
         grid-template-columns: repeat(3, 1fr);
     }
+    .footer-content {
+        max-width: 1024px;
+        margin: auto;
+    }
 }
